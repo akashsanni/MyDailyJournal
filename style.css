@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-container{
+    width: 414px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    
+}
+.logo-1{
+    width: 25px;
+}
+.nav-menus{
+    display: flex;
+    list-style: none;
+    font-size: 0.75em; 
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px; 
+    
+}
+#about{
+    margin-left: 30px;
+}
+#id{
+    height: 293px;
+}
+.hero{
+    background-image: url(./Assets/hero.png);
+    background-size: cover;
+    color: white;
+    width: 414px;
+    height: 293px;
+    /* line-height: 56px; */
+}
+.hero-content{
+    padding-top: 24%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+#date{
+    font-size: 0.75em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+#title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    
+}
+#body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 20px;
+
+}
+.blogs{
+    padding: 20px 0px;
+}
+#blog-date{
+    font-size: 0.75rem;
+    
+}
+#blog-title{
+    font-size: 1.8rem;
+    margin-top: .0002em;
+    margin-bottom: .2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#blog-image{
+    height: 259px;
+}
+
+.content-container{
+
+    padding: 20px;
+    line-height: 1.3;
+}
+.content-container img{
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+
+/* Footer Style */
+.footer{
+    width:100%;
+    height: 80px;
+    background-color: #202020;
+    padding-top: 35px;
+    text-align: center;
+    font-size: .8rem;
+    
+}
+.footer p{
+    
+    color: #ECECEC;
+}
